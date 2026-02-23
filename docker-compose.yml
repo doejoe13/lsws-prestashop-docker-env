@@ -23,7 +23,7 @@ services:
         - ./sites:/var/www/vhosts/
         - ./acme:/root/.acme.sh/
         - ./logs:/usr/local/lsws/logs/
-    ports:
+    #ports:
       #- 80:80
       #- 443:443
       #- 443:443/udp
