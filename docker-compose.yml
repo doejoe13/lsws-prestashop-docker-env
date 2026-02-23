@@ -35,8 +35,8 @@ services:
       - default      
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:${PHPMYADMIN_VERSION}
-    ports:
-      - 8080:80
+    #ports:
+      #- 8080:80
     environment:
         DATABASE_HOST: mysql
     restart: always
